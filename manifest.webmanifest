@@ -1,0 +1,23 @@
+{
+  "name": "Combat Road — neon car combat",
+  "short_name": "Combat Road",
+  "description": "Drive, blast enemy cars with 9 lasers, beat boss waves, grab power-ups, upgrade your ride and climb the leaderboard. Works offline.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "any",
+  "background_color": "#08080f",
+  "theme_color": "#08080f",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "screenshots": [
+    { "src": "docs/screenshots/mobile-action.png", "sizes": "780x1688", "type": "image/png", "form_factor": "narrow", "label": "Mid-game action on a phone" },
+    { "src": "docs/screenshots/action.png", "sizes": "2160x1350", "type": "image/png", "form_factor": "wide", "label": "Boss fight" }
+  ]
+}
